@@ -1,0 +1,23 @@
+.notification{
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    height: auto;
+    width: 25%;
+    background: lightgray;
+    padding: 15px;
+    transition: right 1s
+}
+
+.none{
+    right: -25%;
+    height: 0;
+    transition: height 0.1s, right 0.2s
+}
+.error{
+    background: rgba(255, 0, 0, 0.7);
+}
+
+.info{
+    background: rgba(0, 255, 0, 0.2);
+}

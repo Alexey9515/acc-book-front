@@ -1,0 +1,14 @@
+.login{
+    text-align: center;
+    margin: 10% auto 5%;
+    padding: 20px;
+    width: 30%;
+    border-top: 5px solid #006699;
+    min-width: 250px;
+}
+
+.login .header{
+    color: #006699 !important;
+    background: none !important;
+    border-style: none !important;
+}

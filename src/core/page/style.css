@@ -1,0 +1,110 @@
+body {
+    background: lightgrey;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    background: lightgrey;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 104px;
+    top: 0;
+    bottom: 0;
+}
+
+.navigation {
+    height: 60px;
+    margin: 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: initial;
+}
+
+.footer {
+    width: 100%;
+    margin: 1px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+}
+
+
+.top-navigation-menu {
+    margin: 0;
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    background: white;
+    padding-bottom: 2px;
+}
+
+.top-navigation-image {
+    margin: 0 0 0 1px;
+    display: inline-flex;
+}
+
+.top-navigation-image > div{
+    background: white;
+    display: flex;
+    padding-bottom: 1px;
+    margin-right: 1px;
+}
+.top-navigation-image > div:last-child {
+    margin-right: 0;
+}
+
+.item {
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+}
+
+.item:not(.active):hover {
+    border-bottom: 2px inset rgba(33, 133, 208, .6);
+    color: rgba(33, 133, 208, .6);
+}
+
+.item:not(.active):hover:first-child {
+    text-decoration: none;
+}
+
+.active {
+    color: rgba(33, 133, 208, .6) !important;
+    border-bottom: 2px inset rgba(33, 133, 208, .6);
+}
+
+.image {
+    font-size: 18px;
+    height: 100%;
+    background: white;
+    color: rgba(0, 0, 0, .6);
+    width: 60px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+}
+
+.image:last-child {
+    margin-right: 0;
+}
+
+.image:hover {
+    color: rgba(0, 0, 0, .6);
+}
+

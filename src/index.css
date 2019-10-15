@@ -1,13 +1,79 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Calibri Light", Arial, Roboto sans-serif;
+    color: rgba(0,0,0,0.9) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.ui {
+    font-family: "Calibri Light", Arial, Roboto sans-serif !important;
+    color: rgba(0,0,0,0.9) !important;
+}
+
+.ui input, textarea{
+    font-family: "Calibri Light", Arial, Roboto sans-serif !important;
+    color: rgba(0,0,0,0.9) !important;
+}
+
+.selection{
+    border-color: #c0c1c2 !important;
+
+}
+.ui:not(h2) {
+    font-size: 1em !important;
+}
+
+.button {
+    font-size: 18px !important;
+}
+
+.ui i{
+    color: #666666 !important;
+}
+
+hr{
+    width: 100%;
+    height: 0;
+    border-color: #e0e1e2;
+    color: #e0e1e2;
+}
+
+input, textarea {
+    border-radius: 5px !important;
+    border-color: #c0c1c2 !important;
+    padding: 10px 15px !important;
+    height: auto !important;
+}
+
+.primary {
+    color: white !important;
+    background: #006699 !important;
+
+}
+
+.loader {
+    border: none !important;
+}
+
+.react-contextmenu {
+    padding: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+    min-width: 150px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.react-contextmenu .react-contextmenu-item {
+    margin: 3px 10px;
+    padding: 3px 10px;
+}
+
+.react-contextmenu .react-contextmenu-item--selected {
+    color: rgba(33, 133, 208, .6);
+}
+
+.content {
+    background: white !important;
+    padding: 10px;
 }
